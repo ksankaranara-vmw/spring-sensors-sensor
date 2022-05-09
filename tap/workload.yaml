@@ -4,6 +4,7 @@ metadata:
   name: spring-sensors-sensor
   labels:
     apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: spring-sensors-sensor
 spec:
   source:
     git:
